@@ -1,0 +1,17 @@
+{
+  "languageserver": {
+    "c++": {
+      "command": "clangd",
+      "filetypes": ["cpp","h","hpp"]
+    },
+		"python": {
+		 "command":"python3",
+		 "filetypes": ["py"]
+		},
+		"javascript":{
+		 "command":"node",
+		 "filetypes":["js"]
+		}
+  },
+	"suggest.noselect":true
+}
